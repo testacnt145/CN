@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        package="com.chattynotes">
+
+    <!-- http://stackoverflow.com/a/20123480/4754141 -->
+    <supports-screens
+        android:xlargeScreens="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:anyDensity="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- location -->
+    <!-- https://stackoverflow.com/a/33412295 -->
+    <!-- <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> -->
+
+    <!-- 1946 devices / tablets are added by doing this -->
+    <!-- http://stackoverflow.com/a/11692381/4754141 -->
+    <!-- detail on list of uses-features -->
+    <!-- https://developer.android.com/guide/topics/manifest/uses-feature-element.html#permissions -->
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-feature android:name="android.hardware.microphone" android:required="false"/>
+
+    <!-- android:required="false" meaning application can also be installed on devices that don't have camera -->
+    <!-- <android:uses-permission  android:name="android.permission.READ_EXTERNAL_STORAGE"    android:maxSdkVersion="18" /> -->
+
+    <application
+        android:name="com.chattynotes.application.App"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.App"
+        tools:replace="android:allowBackup">
+
+        <provider
+            android:name=".util.androidos.GenericFileProvider"
+            android:authorities="${applicationId}.util.androidos.GenericFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
+
+        <!-- [email_: chattynotes@gmail.com] -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/maps_v2_key" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Crashlytics__ -->
+        <!-- [email_: chattynotes@gmail.com] -->
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="07d9484bb0b73124d9af88ecd1777c07794e9df2" />
+
+        <activity
+            android:name="com.chattynotes.mvp.activities.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chattynotes.mvp.activities.FirstScreen"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_first_screen"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Backup"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_backup"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.BackupInfo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_backup_info"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Chat"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_chat"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Conversation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_conversation"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.ChatInfo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_chat_info"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.NewChat"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_new_chat"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.ChangeChatName"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_change_chat_name"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.ChatImageViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_chat_image_viewer"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.ChangeChatImage"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_change_chat_image"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Notifications"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_notification"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Settings"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_settings"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Help"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_help"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.ChatSettings"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_chat_settings"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.BackupSettings"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_backup_settings"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.BackupSettingsLocal"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_backup_settings_local"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.EmailChat"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_email_chat"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.About"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_about"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.WebViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_release_notes"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.StarredNotes"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_starred_notes"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.GalleryImageAlbum"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_gallery_image_album"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.GalleryImageGrid"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_gallery_image_grid"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.GalleryImageSend"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_gallery_image_send"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.GalleryVideoAlbum"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_gallery_video_album"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.GalleryVideoGrid"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_gallery_video_grid"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.SendImage"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_send_image"
+            android:theme="@style/Theme.App.Black"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.SendVideo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_send_video"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.TextViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_text_viewer"
+            android:theme="@style/Theme.App.White"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.MediaViewer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_media_viewer"
+            android:theme="@style/Theme.App.Black"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.SendLocation"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_send_location"/>
+        <activity
+            android:name="com.chattynotes.mvp.activities.Forward"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chattynotes.camera.CameraActivity"
+            android:configChanges="keyboardHidden|screenSize"
+            android:exported="true"
+            android:icon="@mipmap/launcher_camera"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.Camera"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.chattynotes.camera.ImagePreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.App.Black"/>
+        <activity
+            android:name="com.chattynotes.camera.VideoPreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.App.Black"/>
+        <!-- https://stackoverflow.com/a/1979631 -->
+        <activity
+            android:name="com.chattynotes.mvp.activities.WallpaperPicker"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/title_activity_wallpaper_picker">
+            <intent-filter>
+                <action android:name="com.chattynotes.intent.action.WALLPAPER_PICKER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias
+            android:icon="@drawable/wallpaper_default"
+            android:label="@string/title_activity_wallpaper_Default"
+            android:name=".WallpaperDefault"
+            android:targetActivity="com.chattynotes.mvp.activities.WallpaperPicker">
+            <!-- XML__ <intent-filter> is mandatory otherwise wont work in API-15 -->
+            <intent-filter>
+                <action android:name="com.chattynotes.intent.action.WALLPAPER_DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@drawable/wallpaper_no"
+            android:label="@string/title_activity_wallpaper_None"
+            android:name=".WallpaperNone"
+            android:targetActivity="com.chattynotes.mvp.activities.WallpaperPicker">
+            <intent-filter>
+                <action android:name="com.chattynotes.intent.action.WALLPAPER_NONE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias
+            android:icon="@drawable/wallpaper_color"
+            android:label="@string/title_activity_wallpaper_Color"
+            android:name=".WallpaperColor"
+            android:targetActivity="com.chattynotes.mvp.activities.WallpaperPicker">
+            <intent-filter>
+                <action android:name="com.chattynotes.intent.action.WALLPAPER_COLOR"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity
+            android:name="com.chattynotes.mvp.activities.AppVersionIncorrect"
+            android:label="@string/title_activity_incorrect_app_release_version"
+            android:theme="@style/Theme.App"/>
+        <!-- ___________________________ receivers ______________________________ -->
+        <!--
+        <receiver
+            android:name="com.chattynotes.receivers.MainReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="main_receiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="RECEIVER_CLEAR_NOTIICATION_DATA" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        -->
+
+        <!-- ___________________________    service    _________________________________________ -->
+        <service
+            android:name="com.chattynotes.services.ServiceApp"
+            android:enabled="true"
+            android:exported="false" />
+        <service android:name="com.chattynotes.services.ServiceVideo" />
+
+        <!-- ___________________________    3rd party Crop Image    ____________________________ -->
+        <activity android:name="com.chattynotes.customviews.crop_biokys.BiokysCropImage" />
+
+        <!--
+            Because android:exported is set to "false",
+            the service is only available to this application.
+        -->
+    </application>
+
+</manifest>
