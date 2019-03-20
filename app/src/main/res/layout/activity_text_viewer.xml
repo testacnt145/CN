@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activity_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@id/toolbar_text_viewer"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.chattynotes.emojicon.EmojiconTextView
+            android:id="@+id/txtView_LongText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="70dp"
+            android:paddingBottom="70dp"
+            android:layout_margin="12dp"
+            android:textColor="@android:color/black"
+            android:autoLink="all"
+            android:textIsSelectable="true"
+            android:linksClickable="true"
+            android:textSize="18sp"
+            emojicon:emojiconSize="25sp"/>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>

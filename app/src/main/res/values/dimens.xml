@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="chat_list_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- chat_list_item -->
+    <dimen name="chat_item_left_padding">6dp</dimen>
+    <dimen name="chat_item_right_padding">6dp</dimen>
+    <dimen name="chat_item_top_padding">8dp</dimen>
+    <dimen name="chat_item_bottom_padding">8dp</dimen>
+    <dimen name="chat_row_left_padding">12dp</dimen>
+    <dimen name="chat_row_right_padding">3dp</dimen>
+    <dimen name="chat_image_size">48dp</dimen>
+    <dimen name="chat_image_margin_left">2dp</dimen>
+    <!-- name -->
+    <dimen name="chat_row_1_height">26dp</dimen>
+    <dimen name="chat_name_height">26dp</dimen>
+    <dimen name="chat_name_text_size">15sp</dimen>
+    <dimen name="chat_name_emojicon_size">17sp</dimen>
+    <!-- message -->
+    <dimen name="chat_row_2_height">22dp</dimen>
+    <dimen name="chat_message_height">22dp</dimen>
+    <dimen name="chat_message_padding">1dp</dimen>
+    <dimen name="chat_message_text_size">13sp</dimen>
+    <dimen name="chat_message_emojicon_size">16sp</dimen>
+    <dimen name="chat_ticks_size">18dp</dimen>
+    <dimen name="chat_ticks_margin">1dp</dimen>
+
+
+    <!-- conversation_bubble -->
+    <dimen name="bubble_width">250dp</dimen>
+    <dimen name="bubble_height">100dp</dimen>
+    <dimen name="conversation_item_contact_image_size">40dp</dimen>
+    <dimen name="conversation_item_contact_image_margin">2dp</dimen>
+    <dimen name="conversation_item_audio_image_size">40dp</dimen>
+    <dimen name="conversation_item_audio_image_margin">2dp</dimen>
+    <dimen name="audio_bubble_height">60dp</dimen>
+    <dimen name="image_bubble_height">250dp</dimen>
+
+
+    <!-- location_picker -->
+    <dimen name="horizontal_padding">16.0dip</dimen>
+
+
+</resources>

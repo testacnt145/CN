@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="toolbar_chats"></item>
+    <item type="id" name="toolbar_conversation"></item>
+    <item type="id" name="toolbar_change_chat_name"></item>
+    <item type="id" name="toolbar_starred_notes"></item>
+    <item type="id" name="toolbar_settings"></item>
+    <item type="id" name="toolbar_help"></item>
+    <item type="id" name="toolbar_chat_settings"></item>
+    <item type="id" name="toolbar_backup_settings"></item>
+    <item type="id" name="toolbar_notifications"></item>
+    <item type="id" name="toolbar_email_chat"></item>
+    <item type="id" name="toolbar_media_viewer"></item>
+    <item type="id" name="toolbar_chat_image_viewer"></item>
+    <item type="id" name="toolbar_gallery_image_album"></item>
+    <item type="id" name="toolbar_gallery_image_grid"></item>
+    <item type="id" name="toolbar_gallery_image_send"></item>
+    <item type="id" name="toolbar_gallery_video_album"></item>
+    <item type="id" name="toolbar_gallery_video_grid"></item>
+    <item type="id" name="toolbar_send_image"></item>
+    <item type="id" name="toolbar_send_video"></item>
+    <item type="id" name="toolbar_send_location"></item>
+    <item type="id" name="toolbar_text_viewer"></item>
+    <item type="id" name="toolbar_forward"></item>
+
+    <!-- toolbar_conversation -->
+    <item type="id" name="toolbar_image"></item>
+    <item type="id" name="toolbar_ll_image"></item>
+
+    <!-- toolbar__2_titles -->
+    <item type="id" name="toolbar_title_1"></item>
+    <item type="id" name="toolbar_title_2"></item>
+
+</resources>

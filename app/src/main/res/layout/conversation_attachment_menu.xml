@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_menu_parent"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:visibility="invisible"
+    android:orientation="vertical">
+
+    <!--row 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="12dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@id/menu_attachment_image"
+                    android:contentDescription="@string/content_description"
+                    android:background="@drawable/input_circle"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:src="@drawable/attach_image" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/accent"
+                    android:text="@string/menu_image" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="12dp"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@id/menu_attachment_video"
+                    android:contentDescription="@string/content_description"
+                    android:background="@drawable/input_circle"
+                    android:layout_width="48dip"
+                    android:layout_height="48dip"
+                    android:src="@drawable/attach_video" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:textSize="12sp"
+                    android:textColor="@color/accent"
+                    android:text="@string/menu_video" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@id/menu_attachment_camera"
+                android:contentDescription="@string/content_description"
+                android:background="@drawable/input_circle"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/attach_camera"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:textColor="@color/accent"
+                android:text="@string/menu_camera" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--row 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@id/menu_attachment_audio"
+                android:contentDescription="@string/content_description"
+                android:background="@drawable/input_circle"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/attach_voice" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:textColor="@color/accent"
+                android:text="@string/menu_audio" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@id/menu_attachment_location"
+                android:contentDescription="@string/content_description"
+                android:background="@drawable/input_circle"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/attach_location" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:textColor="@color/accent"
+                android:text="@string/menu_location" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="12dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@id/menu_attachment_contact"
+                android:contentDescription="@string/content_description"
+                android:background="@drawable/input_circle"
+                android:layout_width="48dip"
+                android:layout_height="48dip"
+                android:src="@drawable/attach_phone" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textSize="12sp"
+                android:textColor="@color/accent"
+                android:text="@string/menu_contact" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

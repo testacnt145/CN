@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activity_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@id/toolbar_conversation"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <include layout="@layout/toolbar_conversation"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@+id/imgView_Conversation"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="false"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_above="@id/conversation_bottom_bar">
+
+            <!-- content(bubble) padding inside listview -->
+            <!-- @link http://stackoverflow.com/questions/7882324/android-listview-padding-for-content-without-moving-listview-height -->
+            <ListView
+                android:id="@id/list_conversation"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:choiceMode="multipleChoice"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                android:paddingTop="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:clipToPadding="false"
+                android:transcriptMode="normal"/>
+
+            <ImageView
+                android:id="@+id/btn_scroll_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="6dp"
+                android:contentDescription="@string/content_description"
+                android:onClick="onClickBtnScrollToTop"
+                android:src="@drawable/button_scroll_top"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:id="@+id/btn_scroll_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="6dp"
+                android:contentDescription="@string/content_description"
+                android:onClick="onClickBtnScrollToBottom"
+                android:src="@drawable/button_scroll_bottom"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <include
+            android:id="@id/conversation_bottom_bar"
+            layout="@layout/conversation_bottom_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+        <io.codetail.widget.RevealFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <include
+                layout="@layout/conversation_attachment_menu"/>
+        </io.codetail.widget.RevealFrameLayout>
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

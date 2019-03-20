@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activity_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@id/toolbar_change_chat_name"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@id/rootView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/panel"
+        android:orientation="horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <com.chattynotes.customviews.ConversationTextEntry
+                android:id="@id/editText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/chat_name_hint"
+                android:selectAllOnFocus="true"
+                android:inputType="text"
+                android:maxLength="@integer/max_chat_name_length"
+                emojicon:emojiconSize="25sp"
+                android:paddingRight="40dp"/>
+
+            <TextView
+                android:id="@id/txtViewCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:gravity="right"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@id/btnEmoji"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/content_description"
+            android:onClick="onClickBtnEmoji"
+            android:scaleType="centerInside"
+            android:src="@drawable/input_emoji" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

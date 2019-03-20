@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+
+    <com.chattynotes.customviews.photoview.PhotoView
+        android:id="@+id/id_photoViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/id_txtViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/media_preview_overlay_bottom"
+        android:textSize="12sp"
+        android:paddingTop="30dp"
+        android:paddingLeft="12dp"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

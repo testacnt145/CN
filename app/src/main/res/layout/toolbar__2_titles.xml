@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="?actionBarSize"
+    android:orientation="vertical"
+    android:paddingBottom="2.0dip"
+    android:paddingLeft="4.0dip"
+    android:clickable="true"
+    android:background="?attr/selectableItemBackgroundBorderless">
+
+    <com.chattynotes.emojicon.EmojiconTextView
+        android:id="@id/toolbar_title_1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="0.6"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        emojicon:emojiconSize="25sp"
+        android:textStyle="bold" />
+
+    <com.chattynotes.emojicon.EmojiconTextView
+        android:id="@id/toolbar_title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="6dp"
+        android:layout_weight="0.4"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="1"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        emojicon:emojiconSize="14sp" />
+</LinearLayout>

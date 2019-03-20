@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- first_screen -->
+    <string name="first_screen_tag">Note taking app redefine…</string>
+    <string name="first_screen_description">Modern way of notes taking, save all your notes in form of conversation.</string>
+    <!-- app_version_incorrect -->
+    <string name="app_version_incorrect_title">"Version Obsolete"</string>
+    <string name="app_version_incorrect">"This version of Chatty Notes has become obsolete. Please download the latest version."</string>
+
+
+    <!-- general -->
+    <string name="content_description" />
+    <string name="continue_button">Continue</string>
+
+
+    <!-- chat -->
+    <string name="new_version_available">"New version available. Download now."</string>
+    <string name="password">password</string>
+    <string name="show_password">Show password</string>
+    <string name="chat_empty">"To start saving notes, tap add a note button at the bottom of your screen."</string>
+
+    <!-- new_chat -->
+    <string name="new_chat_create">Create</string>
+    <string name="new_chat_hint">"Type chat name here&#8230;"</string>
+    <string name="chat_info_edit">"tap name or image to edit"</string>
+
+    <!-- conversation -->
+    <string name="input_hint">Type a note</string>
+    <string name="release_notes">Release Notes</string>
+    <string name="view_more">View More</string>
+    <string name="slide_to_cancel">&lt; Slide to cancel</string>
+    <string name="xml_load_earlier_notes">LOAD EARLIER NOTES</string>
+    <!-- media -->
+    <string name="media_start_time">00:00</string>
+    <string name="add_caption">Add a caption…</string>
+    <!-- audio -->
+    <string name="audio_end_time">02:00</string>
+
+    <!-- custom_camera -->
+    <string name="video_time">"00:00"</string>
+
+    <!-- change_chat_name -->
+    <string name="chat_name_hint">"chat name&#8230;"</string>
+
+    <!-- backup -->
+    <string name="backup_btn_new">"Create new backup"</string>
+    <string name="backup_btn_restore">"Restore backup"</string>
+    <string name="backup_view_info">View complete info</string>
+    <string name="backup_new_success">"Backup successfully created"</string>
+    <string name="backup_restore_success">"Notes successfully restored"</string>
+    <string name="backup_restore_fail">"Error backing up notes. Check if backup present at storage location /Chatty Notes/Database/&#8230;"</string>
+    <string name="backup_media_warning">"Media backup (Audio, Video, Image and Long Text) is not supported in this version"</string>
+    <string name="backup_not_found">"No backups found at storage location\n/Chatty Notes/Database/&#8230;"</string>
+    <string name="backup_not_found_backup_screen">"No backups found. Go to Settings > Chat settings > Backup chat and tap Create new backup button"</string>
+
+    <!-- location -->
+    <string name="xml_no_media_found">No media found.</string>
+
+    <!-- notifications -->
+    <string name="notification_heading">"Conversation tones"</string>
+    <string name="notification_description">"Play sound for task completion."</string>
+
+</resources>

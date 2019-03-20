@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_bubble_rl_father"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:longClickable="true" >
+
+    <!-- A parent RelativeLayout is required because you cant set margins of ROW(parent) in ListView -->
+
+    <RelativeLayout
+        android:id="@id/conversation_bubble_rl_mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balloon_send" >
+        <LinearLayout
+            android:layout_width="@dimen/bubble_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <include
+                android:id="@id/conversation_list_timebar"
+                layout="@layout/list_conversation_timebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imgViewMessage_I"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/image_bubble_height"
+                android:layout_gravity="center"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/content_description"
+                android:src="@drawable/attach_image"
+                android:scaleType="centerCrop" />
+            <com.chattynotes.emojicon.EmojiconTextView
+                android:id="@+id/txtViewMedCap_I"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:minWidth="80dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:textColor="@android:color/primary_text_light" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

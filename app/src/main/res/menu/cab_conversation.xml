@@ -1,0 +1,52 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- CAB icons not showing -->
+    <!-- http://stackoverflow.com/questions/23230939/items-not-showing-in-the-actionbar-with-showasaction-always -->
+
+    <!-- Done -->
+    <item
+        android:id="@id/cab_done"
+        android:icon="@drawable/ic_action_done_2"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/cab_done"/>
+
+    <!-- Star -->
+    <!-- <item
+        android:id="@id/cab_star"
+        android:icon="@drawable/ic_action_star"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/cab_star"/>
+    -->
+    <!-- Delete -->
+    <item
+        android:id="@id/cab_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/cab_delete"/>
+    
+    <!-- Copy -->
+    <item
+        android:id="@id/cab_copy"
+        android:icon="@drawable/ic_action_copy"
+        android:orderInCategory="5"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/cab_copy"/>
+    
+    <!-- Forward -->
+    <item
+        android:id="@id/cab_forward"
+        android:icon="@drawable/ic_action_forward"
+        android:orderInCategory="6"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        android:title="@string/cab_forward"/>
+
+</menu>

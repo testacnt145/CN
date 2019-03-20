@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:id="@id/dialog_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop" />
+
+        <com.chattynotes.emojicon.EmojiconTextView
+            android:id="@id/dialog_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:padding="5dp"
+            android:textSize="18sp"
+            emojicon:emojiconSize="25sp"
+            android:background="@color/transparent_light_gray"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/app_blue"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@id/dialog_btn_message"
+            android:contentDescription="@string/content_description"
+            android:background="@drawable/input_circle"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_note" />
+
+        <ImageButton
+            android:id="@id/dialog_btn_info"
+            android:contentDescription="@string/content_description"
+            android:background="@drawable/input_circle"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_margin="4dp"
+            android:src="@drawable/ic_info" />
+
+    </LinearLayout>
+</LinearLayout>

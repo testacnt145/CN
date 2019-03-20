@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_0">
+
+    <TextView
+        android:id="@id/txtView"
+        android:layout_alignParentTop="true"
+        android:textSize="26.0sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingTop="7.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7.0dip"
+        android:text="@string/title_activity_backup_settings_local" />
+
+    <TextView
+        android:layout_below="@id/txtView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="12dp"
+        android:textColor="@color/transparent_white"
+        android:background="@color/app_yellow"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/backup_media_warning" />
+
+    <LinearLayout
+        android:id="@id/backup_not_found"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@color/transparent_white"
+            android:background="@color/app_blue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/backup_not_found" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/backup_found"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="12dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:id="@id/backup_found_text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="12dp"
+            android:textColor="@color/transparent_white"
+            android:background="@color/app_blue"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/btnViewMore_LT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="@string/backup_view_info"
+            android:textColor="@color/transparent_white"
+            android:background="@color/app_blue"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:onClick="onClickViewBackupInfo"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/backup_btn_restore"
+            android:textAllCaps="false"
+            android:background="@drawable/panel"
+            android:padding="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="onClickRestoreBackup"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/backup_permission"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="12dp"
+            android:textColor="@color/transparent_white"
+            android:background="@color/app_blue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="@string/permission_storage_backup_request" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/permission_grant"
+            android:textAllCaps="false"
+            android:background="@drawable/panel"
+            android:padding="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="onClickPermissionBackup"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/backup_btn_new"
+        android:background="@drawable/input"
+        android:paddingLeft="18dp"
+        android:paddingRight="22dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="onClickBackup"/>
+</RelativeLayout>

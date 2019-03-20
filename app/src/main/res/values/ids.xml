@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- http://stackoverflow.com/questions/1832290/android-id-naming-convention-lower-case-with-underscore-vs-camel-case -->
+    <!-- google android.R.id.namingConventionIsCamelCase -->
+
+    <!-- common controls -->
+    <item type="id" name="ll"></item>
+    <item type="id" name="rl"></item>
+    <item type="id" name="map"></item>
+    <item type="id" name="tabs"></item>
+    <item type="id" name="viewpager"></item>
+    <item type="id" name="btn"></item>
+    <item type="id" name="txtView"></item>
+    <item type="id" name="editText"></item>
+    <item type="id" name="fab"></item>
+    <item type="id" name="rootView"></item>
+    <item type="id" name="seekbar"></item>
+    <item type="id" name="image"></item>
+    <item type="id" name="name"></item>
+    <item type="id" name="hint"></item>
+
+    <item type="id" name="about_build_type"></item>
+
+    <item type="id" name="banner_new_version"></item>
+    <item type="id" name="chat_empty"></item>
+
+    <!--  where emojicons are used -->
+    <item type="id" name="txtViewCount"></item>
+    <item type="id" name="btnEmoji"></item>
+    <item type="id" name="layoutMediaCaption"></item>
+
+    <!-- Video -->
+    <item name="video" type="id"></item>
+    <item name="duration" type="id"></item>
+    <item name="size" type="id"></item>
+
+    <item name="video_holder" type="id"></item>
+    <item name="video_control" type="id"></item>
+    <item name="trim_info" type="id"></item>
+    <item name="video_controls" type="id"></item>
+    <item name="timeline_holder" type="id"></item>
+
+    <!-- dialogs -->
+    <item name="dialog_text_view" type="id"></item>
+    <item name="dialog_photo" type="id"></item>
+    <item name="dialog_btn_message" type="id"></item>
+    <item name="dialog_btn_info" type="id"></item>
+
+
+    <!-- list -->
+    <item type="id" name="list_chats"></item>
+    <item type="id" name="list_conversation"></item>
+    <item type="id" name="list_location_picker"></item>
+    <item type="id" name="list_forward"></item>
+    <item type="id" name="list_settings"></item>
+    <item type="id" name="list_backup_settings"></item>
+    <item type="id" name="list_help"></item>
+    <item type="id" name="list_chat_settings"></item>
+    <item type="id" name="list_notifications"></item>
+    <item type="id" name="list_email_chat"></item>
+
+    <!-- chat row -->
+    <item name="chat_row_chat_image" type="id"></item>
+    <item name="chat_row_chat_name" type="id"></item>
+    <item name="chat_row_msg" type="id"></item>
+    <item name="chat_row_msg_timestamp" type="id"></item>
+    <item name="chat_row_msg_status" type="id"></item>
+
+    <!-- forward row -->
+    <item name="forward_row_chat_image" type="id"></item>
+    <item name="forward_row_chat_name" type="id"></item>
+    <item name="forward_row_msg" type="id"></item>
+
+    <!-- conversation bottom bar -->
+    <item type="id" name="conversation_bubble_rl_father"></item>
+    <item type="id" name="conversation_bubble_rl_mother"></item>
+
+    <!-- conversation bottom bar -->
+    <item type="id" name="conversation_bottom_bar"></item>
+    <item type="id" name="conversation_bar_ll_chat"></item>
+    <item type="id" name="conversation_bar_ll_audio"></item>
+    <item type="id" name="conversation_bar_audio_red_mic"></item>
+    <item type="id" name="conversation_bar_audio_timer"></item>
+    <item type="id" name="conversation_btn_send_text"></item>
+    <item type="id" name="conversation_btn_ll"></item>
+    <item type="id" name="conversation_btn_send_audio"></item>
+    <item type="id" name="conversation_btn_send_emoji"></item>
+    <item type="id" name="conversation_btn_send_camera"></item>
+    <item type="id" name="conversation_editText"></item>
+
+    <!-- date -->
+    <item type="id" name="conversation_list_timebar"></item>
+    <item type="id" name="conversation_list_timebar_share"></item>
+    <item type="id" name="conversation_list_timebar_msg_timestamp"></item>
+    <item type="id" name="conversation_list_timebar_msg_star"></item>
+    <item type="id" name="conversation_list_timebar_msg_status"></item>
+
+    <item type="id" name="conversation_link_bar"></item>
+    <item type="id" name="conversation_link_bar_title"></item>
+    <item type="id" name="conversation_link_bar_description"></item>
+    <item type="id" name="conversation_link_bar_url"></item>
+    <item type="id" name="conversation_link_bar_image"></item>
+    <item type="id" name="conversation_link_bar_cancel"></item>
+    <item type="id" name="conversation_link_bubble"></item>
+
+    <!-- settings row -->
+    <item name="settings_row_image" type="id"></item>
+    <item name="settings_row_text" type="id"></item>
+
+    <!-- backup -->
+    <item name="backup_permission" type="id"></item>
+    <item name="backup_restore" type="id"></item>
+    <item name="backup_not_found" type="id"></item>
+    <item name="backup_found" type="id"></item>
+    <item name="backup_found_text_view" type="id"></item>
+
+    <!-- location_picker -->
+    <item name="permission_image" type="id" />
+
+    <!-- dialog_request_permission -->
+    <item name="permission_image_plus_1" type="id" />
+    <item name="permission_image_1" type="id" />
+    <item name="permission_image_plus_2" type="id" />
+    <item name="permission_image_2" type="id" />
+    <item name="permission_message" type="id" />
+    <item name="cancel" type="id" />
+    <item name="submit" type="id" />
+
+    <!-- dialog_timestamp -->
+    <item type="id" name="dialog_msg_timestamp"></item>
+    <item type="id" name="dialog_msg_timestamp_done"></item>
+    <item type="id" name="dialog_msg_timestamp_completion_detail"></item>
+
+    <!-- emojicon -->
+    <item name="emojis_tab" type="id" />
+    <item name="emojis_tab_0_recent" type="id" />
+    <item name="emojis_tab_1_people" type="id" />
+    <item name="emojis_tab_2_nature" type="id" />
+    <item name="emojis_tab_3_food" type="id" />
+    <item name="emojis_tab_4_activity" type="id" />
+    <item name="emojis_tab_5_travel" type="id" />
+    <item name="emojis_tab_6_objects" type="id" />
+    <item name="emojis_tab_7_symbols" type="id" />
+    <item name="emojis_tab_8_flag" type="id" />
+    <item name="emojis_tab_9_backspace" type="id" />
+    <item name="emojis_pager" type="id" />
+
+</resources>

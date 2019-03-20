@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@id/menu_change_chat_image"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="@string/menu_edit"/>
+</menu>

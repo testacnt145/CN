@@ -1,0 +1,13 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16.0sp"
+        android:textColor="@color/transparent_white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/about_versionName"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"/>
+</merge>

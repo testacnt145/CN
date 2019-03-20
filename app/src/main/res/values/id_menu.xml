@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="menu_tick"></item>
+    <item type="id" name="menu_search"></item>
+    <item type="id" name="menu_overflow"></item>
+
+    <!--  Chats -->
+    <item type="id" name="menu_settings"></item>
+
+    <!--  Conversation -->
+    <item type="id" name="conversation_menu_parent"></item>
+    <item type="id" name="menu_attachments"></item>
+    <item type="id" name="menu_wallpaper"></item>
+    <item type="id" name="menu_clear_chat"></item>
+    <item type="id" name="menu_email_chat"></item>
+    <item type="id" name="menu_attachment_image"></item>
+    <item type="id" name="menu_attachment_video"></item>
+    <item type="id" name="menu_attachment_camera"></item>
+    <item type="id" name="menu_attachment_audio"></item>
+    <item type="id" name="menu_attachment_location"></item>
+    <item type="id" name="menu_attachment_contact"></item>
+    <item type="id" name="cab_done"></item>
+    <item type="id" name="cab_delete"></item>
+    <item type="id" name="cab_copy"></item>
+    <item type="id" name="cab_forward"></item>
+
+    <!--  Starred notes -->
+    <item type="id" name="menu_unstar_all"></item>
+
+    <!--  Location Picker -->
+    <item type="id" name="menu_refresh"></item>
+
+    <item type="id" name="menu_change_chat_image"></item>
+
+</resources>

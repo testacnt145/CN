@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <!-- Choose Android Builtin -->
+    <item
+        android:id="@id/menu_overflow"
+        android:icon="@drawable/abc_ic_menu_moreoverflow_mtrl_alpha"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="@string/menu_choose_photo"/>
+
+</menu>

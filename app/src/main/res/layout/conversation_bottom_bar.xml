@@ -1,0 +1,155 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto">
+
+    <!-- android:layout_marginTop="-6dp" I Don't Know Why -->
+    <LinearLayout
+        android:id="@id/conversation_bottom_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="-6dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/input"
+            android:baselineAligned="false"
+            android:orientation="vertical">
+
+            <include
+                android:id="@id/conversation_link_bar"
+                layout="@layout/conversation_link_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@id/conversation_bar_ll_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@id/conversation_btn_send_emoji"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/content_description"
+                    android:onClick="onClickBtnEmoji"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/input_emoji" />
+
+                <!--
+                     http://stackoverflow.com/questions/3205339/android-how-to-make-keyboard-enter-button-say-search-and-handle-its-click
+                     android:inputType="text" 			is mandatory
+                     android:inputType="textMultiLine"	won't work
+                -->
+
+                <com.chattynotes.customviews.ConversationTextEntry
+                    android:id="@id/conversation_editText"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:autoLink="web|email"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="@string/input_hint"
+                    android:imeOptions="actionNone"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:linksClickable="true"
+                    android:maxLines="6"
+                    android:scrollbars="vertical"
+                    emojicon:emojiconSize="25sp"
+                    android:textColorHint="@color/transparent_light_gray" />
+
+                <ImageButton
+                    android:id="@id/conversation_btn_send_camera"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_gravity="bottom"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/content_description"
+                    android:onClick="onClickBtnCamera"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/input_cam" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/conversation_bar_ll_audio"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <ImageButton
+                    android:id="@id/conversation_bar_audio_red_mic"
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/recording_mic_red"
+                    android:contentDescription="@string/content_description" />
+
+                <TextView
+                    android:id="@id/conversation_bar_audio_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:paddingRight="20dp"
+                    android:singleLine="true"
+                    android:text="@string/slide_to_cancel"
+                    android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/conversation_btn_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/input_circle"
+            android:gravity="center">
+            <ImageButton
+                android:id="@id/conversation_btn_send_audio"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerInside"
+                android:src="@drawable/input_mic_white" />
+            <ImageButton
+                android:id="@id/conversation_btn_send_text"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/content_description"
+                android:onClick="onClickBtnSend"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_note"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

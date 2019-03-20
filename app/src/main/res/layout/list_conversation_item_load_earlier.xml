@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+    <TextView
+        android:id="@+id/id_txtViewLoadEarlier"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/transparent_light_gray"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="@string/xml_load_earlier_notes"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>

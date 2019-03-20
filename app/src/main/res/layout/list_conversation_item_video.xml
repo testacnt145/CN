@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_bubble_rl_father"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:longClickable="true" >
+
+    <RelativeLayout
+        android:id="@id/conversation_bubble_rl_mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balloon_send" >
+
+        <LinearLayout
+            android:layout_width="@dimen/bubble_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include
+                android:id="@id/conversation_list_timebar"
+                layout="@layout/list_conversation_timebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:id="@+id/rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/image_bubble_height">
+                    <ImageView
+                        android:id="@+id/imgViewMessage_V"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:adjustViewBounds="false"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/attach_video"
+                        android:scaleType="centerCrop" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:adjustViewBounds="false"
+                        android:contentDescription="@string/content_description"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/video_reel_bubble" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:adjustViewBounds="false"
+                        android:contentDescription="@string/content_description"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/video_reel_bubble" />
+                </RelativeLayout>
+                <com.chattynotes.emojicon.EmojiconTextView
+                    android:id="@+id/txtViewMedCap_V"
+                    android:layout_below="@id/rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:autoLink="all"
+                    android:linksClickable="true"
+                    android:minWidth="80dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:textColor="@android:color/primary_text_light" />
+                <RelativeLayout
+                    android:id="@+id/rl_Compressing_V"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/download_background"
+                    android:visibility="gone" >
+                    <ProgressBar
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_centerInParent="true"
+                        android:indeterminate="false"
+                        android:max="100" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

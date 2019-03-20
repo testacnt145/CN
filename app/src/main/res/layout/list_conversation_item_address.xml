@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_bubble_rl_father"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:longClickable="true">
+
+    <!-- A parent RelativeLayout is required because you cant set margins of ROW(parent) in ListView -->
+
+    <RelativeLayout
+        android:id="@id/conversation_bubble_rl_mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balloon_send">
+
+        <LinearLayout
+            android:layout_width="@dimen/bubble_width"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <include
+                android:id="@id/conversation_list_timebar"
+                layout="@layout/list_conversation_timebar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/imgViewMessage_Ad"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bubble_height"
+                android:layout_gravity="center"
+                android:adjustViewBounds="false"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/media_location" />
+            <TextView
+                android:id="@+id/txtViewAddName_Ad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:singleLine="true"
+                android:textColor="@color/accent"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/txtViewAddFull_Ad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:layout_marginBottom="2dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

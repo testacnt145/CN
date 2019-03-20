@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="send">"Send"</string>
+    <string name="search">"Search"</string>
+    <string name="cancel">"Cancel"</string>
+    <string name="ok">"OK"</string>
+
+    <!-- Conversation -->
+    <string name="audio_player_title">"Chatty Notes recorder"</string>
+    <string name="audio_player_send">"Send"</string>
+    <string name="audio_player_stop">"Stop"</string>
+    <string name="audio_player_start_time">"Stop"</string>
+    <string name="dialog_msg_timestamp_completion_detail">"You took %1$s to complete this task."</string>
+
+    <!-- EmailConversation -->
+    <string name="no_chats_found">"no chats found"</string>
+    <string name="no_match_found">"no match found"</string>
+    <string name="email_subject">"Chatty Notes : Chat with %1$s"</string>
+    <string name="email_text">"Notes are attached as a Text File"</string>
+    <string name="email_chooser">"Send chat via…"</string>
+
+    <!-- location_picker -->
+    <string name="location_4square">"Location data provided by www.foursquare.com"</string>
+
+    <string name="send_image">"Send image"</string>
+    <string name="send_video">"Send video"</string>
+    <string name="multiple_selection">"tap and hold to select multiple"</string>
+
+    <string name="forward_to">"Forward to %1$s?"</string>
+    <string name="share_with">"Share with %1$s?"</string>
+    <string name="share_using">"Share using"</string>
+    <string name="delete_chat_with">"Delete chat with %1$s?"</string>
+    <string name="about_build_type">"(%1$s-%2$d)"</string>
+    <string name="ffmpeg_device_not_supported">"FFmpeg: Video editing is not supported on your device"</string>
+    <string name="trim_duration">"%1$s-%2$s"</string>
+
+</resources>

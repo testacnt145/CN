@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- [release_: this will called only once, do proper formatting in one shot] -->
+    <!-- [release_: use \n\n TWICE] -->
+
+    <!--&lt;!&ndash; 1000 &ndash;&gt;-->
+    <!--<string name="v1_0_0_0">"#*ChattyNotes* is a modern way of notes taking, save all your notes in form of conversation. Some of the features are.\n\n-->
+<!--▷ <b>*Text Notes*</b>\n-->
+<!--Take simple text notes. Format notes by _italicize_, *bold* or ~strikethrough~.\n\n-->
+<!--▷ <b>*Images &amp; Video Notes*</b>\n-->
+<!--Trim videos, crop images and use them as notes\n\n-->
+<!--▷ <b>*Audio Notes*</b>\n-->
+<!--Record audio instantly and save it as a note\n\n-->
+<!--▷ <b>*Location Notes*</b>\n-->
+<!--Search nearby places or any location and save it for reference\n\n-->
+<!--▷ <b>*Contact Notes*</b>\n-->
+<!--Save favorite contacts in one place"-->
+    <!--</string>-->
+
+    <!--&lt;!&ndash; 1100 &ndash;&gt;-->
+    <!--<string name="v1_1_0_0">"#*ChattyNotes* : New in version 1.1.0.0\n\n-->
+<!--▷ <b>*Task Tracking*</b>\n-->
+<!--View how long you took to complete tasks. Do better, beat your best"-->
+    <!--</string>-->
+
+    <!--&lt;!&ndash; 2000 &ndash;&gt;-->
+    <!--<string name="v2_0_0_0">"#*ChattyNotes* : New in version 2.0.0.0\n\n-->
+<!--▷ <b>*Backup notes*</b>\n-->
+<!--Backup all your notes in local storage\n\n-->
+<!--▷ <b>*Notes counter*</b>\n-->
+<!--Keep track of your notes count"-->
+    <!--</string>-->
+
+    <!-- 2301 -->
+    <!--<string name="v2_3_0_1">"#*ChattyNotes* : New in version 2.3.0.1\n\n-->
+<!--▷ <b>*Bug Fixes*</b>\n-->
+<!--▷ <b>*Optimized for Android Oreo*</b>"-->
+    <!--</string>-->
+
+    <!-- 3000 -->
+    <string name="v3_0_0_0">"#*ChattyNotes* : New in version 3.0.0.0\n\n
+▷ <b>*Optimized for Android Oreo*</b>"
+    </string>
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/conversation_bubble_rl_father"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:longClickable="true" >
+
+    <!-- A parent RelativeLayout is required because you cant set margins of ROW(parent) in ListView -->
+
+    <RelativeLayout
+        android:id="@id/conversation_bubble_rl_mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/balloon_send" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <include
+                android:id="@id/conversation_list_timebar"
+                layout="@layout/list_conversation_timebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <include
+                android:id="@id/conversation_link_bubble"
+                layout="@layout/conversation_link_bubble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.chattynotes.emojicon.EmojiconTextView
+                android:id="@+id/txtViewMessage_L"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:autoLink="all"
+                android:linksClickable="true"
+                android:minWidth="280dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:textColor="@android:color/primary_text_light" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

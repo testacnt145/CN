@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- _______________________________________<MATERIAL>___________________________________ -->
+    <!-- https://material.io/guidelines/style/color.html#color-color-system -->
+    <!--Status Bar-->
+    <color name="primary_700">@color/app_blue_dark</color>
+    <!--ToolBar-->
+    <color name="primary_500">@color/app_blue</color>
+    <!--???  -->
+    <color name="accent">@color/app_blue_dark</color>
+    <!--FAB | Dialogs | EditText (Bottom Line, Selector)  -->
+    <color name="accent_500">@color/app_yellow</color>
+    <!--CAB -->
+    <color name="action_mode">@color/app_blue_dark</color>
+
+    <color name="app_blue">#ff5b87cd</color>
+    <color name="app_blue_dark">#ff5980cd</color>
+    <color name="app_yellow">#ffe8c25e</color>
+
+    <!-- shades of white -->
+    <color name="transparent_white">#fffffffa</color>
+    <!-- shades of grey -->
+    <color name="emoji_popup_body">#ffebeff2</color>
+    <color name="emoji_popup_header">#ffe3e7e8</color>
+    <color name="transparent_light_gray">#30000000</color>
+    <color name="transparent_gray">#B02a2a2a</color>
+    <color name="quote_grey">#09000000</color>
+    <color name="activity_background">#ffeeeeee</color>
+    <color name="divider_grey">#eaeaea</color>
+    <color name="greyed_out">#a8a8a8</color>
+    <color name="chat_unread_text">#666666</color>
+</resources>

@@ -1,0 +1,41 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@id/conversation_link_bubble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/quote_grey"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@id/conversation_link_bar_image"
+            android:layout_width="85dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <TextView
+                android:id="@id/conversation_link_bar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:maxLines="3"/>
+            <TextView
+                android:id="@id/conversation_link_bar_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greyed_out"
+                android:maxLines="2"/>
+            <TextView
+                android:id="@id/conversation_link_bar_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Search -->
+    <!-- [os_lollipop_: material_design] http://stackoverflow.com/questions/27049294/searchview-doesnt-work-since-app-compat -->
+    <item
+        android:id="@id/menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:orderInCategory="1"
+        app:showAsAction="always|collapseActionView"
+        android:title="@string/search"/>
+</menu>
