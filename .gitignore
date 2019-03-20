@@ -7,3 +7,10 @@
 /build
 /captures
 .externalNativeBuild
+/.idea/
+app/debug/output.json
+app/release/output.json
+app/production/release/output.json
+*.apk
+app/staging/debug/output.json
+app/internalQaProductionFirebase/release/output.json
