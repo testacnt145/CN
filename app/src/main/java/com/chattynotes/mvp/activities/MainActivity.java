@@ -107,7 +107,9 @@ public class MainActivity extends Activity {
 		//v2.3.0.1
 		//insertNewReleaseNote(getString(R.string.v2_3_0_1));
 		//v3.0.0.0
-		insertNewReleaseNote(getString(R.string.v3_0_0_0));
+		//insertNewReleaseNote(getString(R.string.v3_0_0_0));
+		//v3.0.0.1
+		insertNewReleaseNote(getString(R.string.v3_0_0_1));
 	}
 
 	void insertNewReleaseNote(String msg) {

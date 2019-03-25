@@ -38,9 +38,14 @@
 <!--▷ <b>*Optimized for Android Oreo*</b>"-->
     <!--</string>-->
 
-    <!-- 3000 -->
-    <string name="v3_0_0_0">"#*ChattyNotes* : New in version 3.0.0.0\n\n
-▷ <b>*Optimization*</b>"
+    <!--&lt;!&ndash; 3000 &ndash;&gt;-->
+    <!--<string name="v3_0_0_0">"#*ChattyNotes* : New in version 3.0.0.0\n\n-->
+<!--▷ <b>*Optimization*</b>"-->
+    <!--</string>-->
+
+    <!-- 3001 -->
+    <string name="v3_0_0_1">"#*ChattyNotes* : New in version 3.0.0.1\n\n
+▷ <b>*App Bundles*</b>"
     </string>
 
 </resources>
