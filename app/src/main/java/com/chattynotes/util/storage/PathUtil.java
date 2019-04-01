@@ -22,8 +22,8 @@ public final class PathUtil {
 	private final static String INFO_FILE_DATABASE_ENCRYPT = "e-info";
 	private final static String INFO_FILE_DATABASE_GDRIVE = "gd-info";
 
-	private final static String EXTERNAL_FOLDER = "Chatty Notes";
-	private final static String INTERNAL_FOLDER = "ChattyNotes";
+	private final static String EXTERNAL_FOLDER = "Chatty Notes Lite";
+	private final static String INTERNAL_FOLDER = "ChattyNotesLite";
 	final static String INTERNAL_SUB_FOLDER_CHAT_IMAGE = "folder_chat_image";
 	//not required for Picasso
 	//[bug_: Picasso_| store images in Internal cache]
