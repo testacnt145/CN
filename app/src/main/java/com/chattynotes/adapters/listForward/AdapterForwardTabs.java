@@ -1,6 +1,6 @@
 package com.chattynotes.adapters.listForward;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.adapters.listForward.model.ForwardStringItem;
 import com.chattynotes.adapters.listForward.model.InterfaceForward;
 import com.chattynotes.constant.ItemType;

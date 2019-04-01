@@ -14,7 +14,7 @@ import com.chattynotes.util.ShareUtil;
 import com.chattynotes.util.media.MediaThumbUtil;
 import com.chattynotes.util.media.MediaUtil;
 import com.chattynotes.util.PermissionUtil;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;

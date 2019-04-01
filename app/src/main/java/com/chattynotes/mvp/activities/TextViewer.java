@@ -1,6 +1,6 @@
 package com.chattynotes.mvp.activities;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.constant.MsgConstant;
 import com.chattynotes.util.storage.PathUtil;

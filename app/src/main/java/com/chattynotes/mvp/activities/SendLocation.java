@@ -1,6 +1,6 @@
 package com.chattynotes.mvp.activities;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.adapters.location.FoursquareItem;
 import com.chattynotes.swipe.rfit.API;
 import com.chattynotes.swipe.rfit.converter.StringConverterFactory;

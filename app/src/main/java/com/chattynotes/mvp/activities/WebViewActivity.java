@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebView;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 
 public class WebViewActivity extends AppCompatActivity {

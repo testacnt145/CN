@@ -9,7 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.emojicon.EmojiconTextView;
 import com.chattynotes.adapters.listConversation.viewholders.ViewHolder;
 import com.chattynotes.preferences.Prefs;

@@ -9,7 +9,7 @@ import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.widget.EditText;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 public class ConversationTextEntry extends EditText {
 	//com.chattynotes.customviews.ConversationTextEntry

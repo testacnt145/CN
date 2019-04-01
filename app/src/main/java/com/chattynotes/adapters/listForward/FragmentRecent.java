@@ -9,7 +9,7 @@ import com.chattynotes.util.storage.PathUtil;
 import java.util.ArrayList;
 import java.util.Collections;
 import com.chattynotes.mvp.activities.MainActivity;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.SearchManager;

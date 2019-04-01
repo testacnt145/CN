@@ -8,7 +8,7 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.widget.TextView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 
 public class EmojiconTextView extends TextView {

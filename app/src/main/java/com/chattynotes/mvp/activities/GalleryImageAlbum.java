@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.AppConst;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.constant.MsgConstant;

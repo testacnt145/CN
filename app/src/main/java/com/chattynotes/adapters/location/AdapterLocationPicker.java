@@ -1,7 +1,7 @@
 package com.chattynotes.adapters.location;
 
 import java.util.ArrayList;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.ItemType;
 
 import android.content.Context;

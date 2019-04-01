@@ -8,7 +8,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.GridView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 
 public class EmojiconGridView {

@@ -1,7 +1,7 @@
 package com.chattynotes.mvp.activities;
 
 import java.util.ArrayList;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.constant.ItemType;
 import com.chattynotes.database.rl.QueryNotesDB;

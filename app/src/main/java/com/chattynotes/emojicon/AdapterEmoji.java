@@ -12,7 +12,7 @@ import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.support.annotation.NonNull;
 
 class AdapterEmoji extends ArrayAdapter<Emojicon> {

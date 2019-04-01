@@ -16,7 +16,7 @@
 
 package com.chattynotes.customviews.crop_biokys;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.util.BiokysUtil;
 import com.chattynotes.util.LogUtil;

@@ -7,7 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.preferences.Prefs;
 import com.chattynotes.util.storage.PathUtil;
 import com.chattynotes.util.PermissionUtil;

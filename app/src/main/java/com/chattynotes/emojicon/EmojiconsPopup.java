@@ -32,7 +32,7 @@ import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.view.WindowManager.LayoutParams;
 import android.widget.PopupWindow;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 //import android.annotation.TargetApi;
 
 /**

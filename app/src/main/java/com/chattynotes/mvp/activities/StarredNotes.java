@@ -9,7 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ListView;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.database.rl.QueryNotesDB;
 import com.chattynotes.database.rl.model.Notes;
 import com.chattynotes.database.rl.util.DBUtil;

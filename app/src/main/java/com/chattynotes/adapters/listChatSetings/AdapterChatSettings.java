@@ -1,6 +1,6 @@
 package com.chattynotes.adapters.listChatSetings;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.ItemType;
 import java.util.ArrayList;
 import android.app.Activity;

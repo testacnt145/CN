@@ -11,7 +11,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.constant.keyboard.Keyboard;
 import com.chattynotes.mvp.presenter.HelpPresenter;

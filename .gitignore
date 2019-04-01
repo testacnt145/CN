@@ -14,3 +14,4 @@ app/production/release/output.json
 *.apk
 app/staging/debug/output.json
 app/internalQaProductionFirebase/release/output.json
+/.idea/*

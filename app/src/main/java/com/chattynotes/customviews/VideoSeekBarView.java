@@ -1,6 +1,6 @@
 package com.chattynotes.customviews;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.util.AndroidUtil;
 
 import android.annotation.SuppressLint;

@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.util.PermissionUtil;
 import com.chattynotes.util.storage.json.JsonUtil;
 import com.chattynotes.util.storage.json.model.BackupModel;

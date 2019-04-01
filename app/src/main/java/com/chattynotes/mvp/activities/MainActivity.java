@@ -1,6 +1,6 @@
 package com.chattynotes.mvp.activities;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.AppVersionCode;
 import com.chattynotes.constant.ChatID;
 import com.chattynotes.constant.ChatName;

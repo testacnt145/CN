@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.application.App;
 import com.chattynotes.constant.AppConst;
 import com.chattynotes.constant.IntentKeys;

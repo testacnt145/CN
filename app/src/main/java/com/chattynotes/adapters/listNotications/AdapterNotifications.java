@@ -1,6 +1,6 @@
 package com.chattynotes.adapters.listNotications;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.ItemType;
 import java.util.ArrayList;
 import android.content.Context;

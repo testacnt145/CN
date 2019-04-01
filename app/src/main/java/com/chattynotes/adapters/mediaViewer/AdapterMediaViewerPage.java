@@ -1,7 +1,7 @@
 package com.chattynotes.adapters.mediaViewer;
 
 import java.util.ArrayList;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.adapters.mediaViewer.model.Media;
 import com.chattynotes.lazylistPath.ImageLoaderPath;
 import com.chattynotes.util.DateUtil;

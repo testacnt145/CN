@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.MediaStatus;
 import com.chattynotes.constant.Msg;
 import com.chattynotes.constant.MsgConstant;

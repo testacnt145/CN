@@ -16,7 +16,7 @@
 
 package com.chattynotes.customviews.crop_biokys;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.graphics.*;
 import android.graphics.drawable.Drawable;
 import android.view.View;

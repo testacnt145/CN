@@ -1,6 +1,6 @@
 package com.chattynotes.adapters.listSettings;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import java.util.ArrayList;
 import android.content.Context;
 import android.view.LayoutInflater;

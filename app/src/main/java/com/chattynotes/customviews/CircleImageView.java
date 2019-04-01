@@ -17,7 +17,7 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.support.v4.content.ContextCompat;
 import android.util.AttributeSet;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
 import android.support.annotation.DrawableRes;

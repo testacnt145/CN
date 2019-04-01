@@ -2,7 +2,7 @@ package com.chattynotes.adapters.gridGalleryVideo;
 
 import com.chattynotes.async.VideoThumbnailGallery;
 import com.chattynotes.mvp.activities.GalleryVideoGrid.ThumbnailCache;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.content.Context;
 import android.database.Cursor;
 import android.graphics.Bitmap;

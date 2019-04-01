@@ -3,7 +3,7 @@ package com.chattynotes.adapters.gridGalleryImage;
 import java.io.File;
 import java.util.ArrayList;
 import com.chattynotes.application.App;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.lazylistPath.ImageLoaderPath;
 import android.content.Context;
 import android.view.LayoutInflater;

@@ -10,7 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.database.rl.util.DBUtil;
 import com.chattynotes.preferences.Prefs;
 import com.chattynotes.util.PermissionUtil;

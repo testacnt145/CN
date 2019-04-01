@@ -1,6 +1,6 @@
 package com.chattynotes.util;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.application.App;
 
 public class WallpaperUtil {

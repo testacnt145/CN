@@ -8,7 +8,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import com.chattynotes.application.App;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.preferences.Prefs;
 
 public class MediaAudioUtil {

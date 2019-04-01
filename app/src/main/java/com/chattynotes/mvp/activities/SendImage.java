@@ -21,7 +21,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.support.v7.app.ActionBar;
 import java.io.File;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.MsgConstant;
 import com.chattynotes.util.media.MediaThumbUtil;
 import com.chattynotes.util.media.MediaUtil;

@@ -14,7 +14,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.Toast;
 import com.chattynotes.mvp.activities.Conversation;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 public class PasswordUtil {
 	

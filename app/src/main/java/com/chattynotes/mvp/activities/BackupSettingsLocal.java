@@ -11,7 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.AppVersionCode;
 import com.chattynotes.constant.BackupType;
 import com.chattynotes.constant.IntentKeys;

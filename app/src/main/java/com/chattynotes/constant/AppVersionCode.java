@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.application.App;
 
 public class AppVersionCode {

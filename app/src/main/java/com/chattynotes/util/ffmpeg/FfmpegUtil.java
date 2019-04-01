@@ -1,6 +1,6 @@
 package com.chattynotes.util.ffmpeg;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.content.Context;
 import android.widget.Toast;
 import java.text.DecimalFormat;

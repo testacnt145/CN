@@ -5,7 +5,7 @@ import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.provider.MediaStore;
 import android.widget.ImageView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.mvp.activities.GalleryVideoGrid.ThumbnailCache;
 import com.chattynotes.constant.ThreadName;
 

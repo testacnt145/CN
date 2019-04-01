@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Formatter;
 import java.util.List;
 import java.util.Locale;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;

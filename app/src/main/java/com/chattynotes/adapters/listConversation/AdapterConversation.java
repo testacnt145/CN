@@ -26,7 +26,7 @@ import com.chattynotes.adapters.listConversation.utility.MsgAddressUtil;
 import com.chattynotes.adapters.listConversation.viewholders.ViewHolder;
 import com.chattynotes.adapters.location.FoursquareItem;
 import com.chattynotes.preferences.Prefs;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.util.AppUtil;
 import com.chattynotes.util.DateUtil;
 import com.chattynotes.util.ShareUtil;

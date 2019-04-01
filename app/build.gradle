@@ -54,7 +54,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.chattynotes" //com.chattynotes2 [shanraisshan]
+        applicationId "com.chattynoteslite" //com.chattynotes2 [shanraisshan]
         minSdkVersion 16 //due to ffmpeg
         targetSdkVersion 28
         renderscriptTargetApi 19

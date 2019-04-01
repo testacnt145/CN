@@ -2,7 +2,7 @@ package com.chattynotes.mvp.activities;
 
 import java.io.File;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.application.App;
 import com.chattynotes.constant.AppConst;
 import com.chattynotes.constant.IntentKeys;

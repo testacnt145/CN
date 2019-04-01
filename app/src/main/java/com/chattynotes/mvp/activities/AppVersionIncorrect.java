@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 public class AppVersionIncorrect extends AppCompatActivity {
     //both cases [obsolete or delete]

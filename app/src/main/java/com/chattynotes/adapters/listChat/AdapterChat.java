@@ -5,7 +5,7 @@ import com.chattynotes.adapters.listChat.model.StringChatItem;
 import com.chattynotes.database.rl.model.Chats;
 import com.chattynotes.mvp.activities.ChatImageViewer;
 import com.chattynotes.mvp.activities.ChatInfo;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.constant.ItemType;
 import com.chattynotes.constant.Msg;

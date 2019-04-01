@@ -6,7 +6,7 @@ import android.net.Uri;
 import android.os.Build;
 import android.support.v4.content.FileProvider;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.application.App;
 import com.chattynotes.constant.MimeType;
 import com.chattynotes.database.rl.QueryNotesDB;

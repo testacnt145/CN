@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.chattynotes.BuildConfig;
-import com.chattynotes.R;
+import com.chattynoteslite.BuildConfig;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.AppVersionCode;
 
 public class About extends AppCompatActivity {

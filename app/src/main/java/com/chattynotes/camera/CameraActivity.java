@@ -13,7 +13,7 @@ import com.chattynotes.util.PermissionUtil;
 import com.chattynotes.util.ShortcutUtil;
 import com.chattynotes.util.storage.StorageUtil;
 import com.chattynotes.util.VideoUtil;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;

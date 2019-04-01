@@ -4,7 +4,7 @@
 //import android.content.res.TypedArray;
 //import android.util.AttributeSet;
 //import android.widget.EditText;
-//import com.chattynotes.R;
+//import com.chattynoteslite.R;
 //
 ///**we are not using this, instead copy the below code to com.chattynotes.customviews.ConversationTextEntry **/
 

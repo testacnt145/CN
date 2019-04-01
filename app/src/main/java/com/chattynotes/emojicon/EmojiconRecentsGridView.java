@@ -3,7 +3,7 @@ package com.chattynotes.emojicon;
 import com.chattynotes.emojicon.emoji.Emojicon;
 import android.content.Context;
 import android.widget.GridView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 
 class EmojiconRecentsGridView extends EmojiconGridView implements EmojiconRecents {

@@ -3,7 +3,7 @@ package com.chattynotes.emojicon;
 import android.content.Context;
 import android.text.Spannable;
 import android.util.SparseIntArray;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import java.util.Arrays;
 import com.chattynotes.emojicon.emoji.Activity_4;
 import com.chattynotes.emojicon.emoji.Flags_8;

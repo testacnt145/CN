@@ -1,6 +1,6 @@
 package com.chattynotes.mvp.activities;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.adapters.listSettings.AdapterSettings;
 import com.chattynotes.adapters.listSettings.SettingsItem;
 import java.util.ArrayList;

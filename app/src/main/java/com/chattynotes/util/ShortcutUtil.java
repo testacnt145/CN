@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.camera.CameraActivity;
 import com.chattynotes.constant.IntentKeys;
 

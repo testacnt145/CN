@@ -12,7 +12,7 @@ import android.os.AsyncTask;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.util.AndroidUtil;
 
 import java.util.ArrayList;

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 import com.chattynotes.application.App;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.lazylistPath.ImageLoaderPath;
 import android.content.Context;
 import android.view.LayoutInflater;

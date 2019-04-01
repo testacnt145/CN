@@ -7,7 +7,7 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.emojicon.EmojiconGridView.OnEmojiconClickedListener;
 import com.chattynotes.emojicon.emoji.Emojicon;
 

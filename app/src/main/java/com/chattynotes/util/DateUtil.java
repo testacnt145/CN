@@ -1,7 +1,7 @@
 package com.chattynotes.util;
 
 import com.chattynotes.application.App;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import org.joda.time.DateTime;
 
 public class DateUtil {

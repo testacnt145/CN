@@ -3,7 +3,7 @@ package com.chattynotes.mvp.activities;
 import java.io.File;
 import java.util.ArrayList;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.constant.IntentKeys;
 import com.chattynotes.constant.MsgConstant;
 import com.chattynotes.customviews.HackyViewPager;

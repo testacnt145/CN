@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import com.chattynotes.mvp.activities.Forward;
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 
 public class ShareUtil {
     //https://developer.android.com/training/sharing/send.html

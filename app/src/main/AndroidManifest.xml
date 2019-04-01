@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        package="com.chattynotes">
+        package="com.chattynoteslite">
 
     <!-- http://stackoverflow.com/a/20123480/4754141 -->
     <supports-screens
@@ -48,7 +48,7 @@
         tools:replace="android:allowBackup">
 
         <provider
-            android:name=".util.androidos.GenericFileProvider"
+            android:name="com.chattynotes.util.androidos.GenericFileProvider"
             android:authorities="${applicationId}.util.androidos.GenericFileProvider"
             android:exported="false"
             android:grantUriPermissions="true">

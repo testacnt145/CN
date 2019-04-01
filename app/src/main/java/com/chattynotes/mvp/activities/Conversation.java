@@ -1,6 +1,6 @@
 package com.chattynotes.mvp.activities;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.adapters.listConversation.model.ConversationLoadEarlierItem;
 import com.chattynotes.database.rl.model.Chats;
 import com.chattynotes.database.rl.model.Notes;

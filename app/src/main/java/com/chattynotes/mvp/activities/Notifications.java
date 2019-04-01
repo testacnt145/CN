@@ -1,6 +1,6 @@
 package com.chattynotes.mvp.activities;
 
-import com.chattynotes.R;
+import com.chattynoteslite.R;
 import com.chattynotes.preferences.PDefaultValue;
 import com.chattynotes.preferences.Prefs;
 import com.chattynotes.adapters.listNotications.AdapterNotifications;

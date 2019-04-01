@@ -1,7 +1,7 @@
 package com.chattynotes.util;
 
 import android.util.Log;
-import com.chattynotes.BuildConfig;
+import com.chattynoteslite.BuildConfig;
 
 public final class LogUtil {
 
