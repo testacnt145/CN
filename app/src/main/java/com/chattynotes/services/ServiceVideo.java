@@ -68,7 +68,7 @@ public class ServiceVideo extends Service {
 	private Notification updateNotification() {
 		NotificationCompat.Builder builder = new NotificationCompat.Builder(this);
 	    builder.setOngoing(true);
-	    builder.setContentTitle("Chatty Notes - Video");
+	    builder.setContentTitle("Chatty Notes Lite - Video");
 		builder.setSmallIcon(android.R.drawable.stat_sys_upload);
 	    Notification n = builder.build();
         NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);

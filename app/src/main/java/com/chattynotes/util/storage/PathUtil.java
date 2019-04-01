@@ -35,7 +35,7 @@ public final class PathUtil {
 	private final static String TEMP_CHAT_IMAGE = "temp_chat_image";
 	private final static String TEMP_LINK_IMAGE = "temp_link_image";
 	private final static String TEMP_CAMERA_IMAGE = "temp_camera_image";
-	private final static String EMAIL_TEXT_FILE = "Chatty Notes | Chat.txt";
+	private final static String EMAIL_TEXT_FILE = "Chatty Notes Lite | Chat.txt";
 
 	//		/data/data/com.chattynotes/app_ChattyNotes
 	final static File INTERNAL_MAIN_DIRECTORY = App.applicationContext.getDir(INTERNAL_FOLDER, Context.MODE_PRIVATE);

@@ -6,16 +6,16 @@
     <!-- [release_: version name] -->
 
     <!-- about -->
-    <string name="copyright1">"© 2019 Chatty Notes.
+    <string name="copyright1">"© 2019 Chatty Notes Lite.
 All rights reserved."</string>
 
     <!-- version -->
     <string name="app_version_min_support_title">"Update?"</string>
-    <string name="app_version_min_support">"A new version of Chatty Notes is available. Please download the latest version."</string>
+    <string name="app_version_min_support">"A new version of Chatty Notes Lite is available. Please download the latest version."</string>
     <string name="app_version_min_obsolete_title">"Application version obsolete"</string>
-    <string name="app_version_min_obsolete">"This version of Chatty Notes is obsolete. Please download the latest version."</string>
+    <string name="app_version_min_obsolete">"This version of Chatty Notes Lite is obsolete. Please download the latest version."</string>
     <string name="app_version_min_delete_title">"Application version obsolete and not supported further"</string>
-    <string name="app_version_min_delete">"This version of Chatty Notes is obsolete, all your data will be lost. Please download the latest version."</string>
+    <string name="app_version_min_delete">"This version of Chatty Notes Lite is obsolete, all your data will be lost. Please download the latest version."</string>
 
     <!-- API KEY (location maps) -->
     <string name="maps_v2_key">AIzaSyDqvloo2c3gh3vVkHdK5EB_Pz48rGNwQms</string>
@@ -25,31 +25,31 @@ All rights reserved."</string>
     <string name="permission_continue">CONTINUE</string>
     <string name="permission_settings_open">SETTINGS</string>
     <string name="permission_grant">Grant permission</string>
-    <string name="permission_first_time">"To easily save notes, allow Chatty Notes to access multiple permissions."</string>
-    <string name="permission_storage_cam_mic_custom_camera">"To capture photos and videos, allow Chatty Notes access to your camera, your microphone and your device's photos, media, and files. Tap Settings > Permissions, and turn Camera, Microphone and Storage on."</string>
-    <string name="permission_storage_cam_mic_custom_camera_request">"To capture photos and videos, allow Chatty Notes access to your camera, your microphone and your device's photos, media, and files."</string>
-    <string name="permission_storage_media_send">"To send media, allow Chatty Notes access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
-    <string name="permission_storage_media_send_request">"To send media, allow Chatty Notes access to your device's photos, media, and files."</string>
-    <string name="permission_cam_send">To capture photos and videos, allow Chatty Notes access to your camera. Tap Settings > Permissions, and turn Camera on.</string>
-    <string name="permission_cam_send_request">To capture photos and videos, allow Chatty Notes access to your camera.</string>
-    <string name="permission_storage_mic_send">"To record a Voice Message, allow Chatty Notes access to your microphone and your device's photos, media, and files. Tap Settings > Permissions, and turn Microphone on and Storage on."</string>
-    <string name="permission_storage_mic_send_request">"To record a Voice Message, allow Chatty Notes access to your microphone and your device's photos, media, and files."</string>
-    <string name="permission_location_send">To send a nearby place or your location, allow Chatty Notes access to your location. Tap Settings > Permissions, and turn Location on.</string>
-    <string name="permission_location_send_request">To send a nearby place or your location, allow Chatty Notes access to your location.</string>
-    <string name="permission_change_chat_image">"To update chat image, allow Chatty Notes access to your camera and your device's photos, media, and files. Tap Settings > Permissions, and turn Camera and Storage on."</string>
-    <string name="permission_change_chat_image_request">"To update chat image, allow Chatty Notes access to your camera and your device's photos, media, and files."</string>
-    <string name="permission_storage_email">"To send an email, allow Chatty Notes access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
-    <string name="permission_storage_email_request">"To send an email, allow Chatty Notes access to your device's photos, media, and files."</string>
-    <string name="permission_storage_media_view">"To view media, allow Chatty Notes access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
-    <string name="permission_storage_media_view_request">"To view media, allow Chatty Notes access to your device's photos, media, and files."</string>
-    <string name="permission_storage_backup">"To detect whether backup is present in your storage, allow Chatty Notes access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
-    <string name="permission_storage_backup_request">"To detect whether backup is present in your storage, allow Chatty Notes access to your device's photos, media, and files."</string>
+    <string name="permission_first_time">"To easily save notes, allow Chatty Notes Lite to access multiple permissions."</string>
+    <string name="permission_storage_cam_mic_custom_camera">"To capture photos and videos, allow Chatty Notes Lite access to your camera, your microphone and your device's photos, media, and files. Tap Settings > Permissions, and turn Camera, Microphone and Storage on."</string>
+    <string name="permission_storage_cam_mic_custom_camera_request">"To capture photos and videos, allow Chatty Notes Lite access to your camera, your microphone and your device's photos, media, and files."</string>
+    <string name="permission_storage_media_send">"To send media, allow Chatty Notes Lite access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
+    <string name="permission_storage_media_send_request">"To send media, allow Chatty Notes Lite access to your device's photos, media, and files."</string>
+    <string name="permission_cam_send">To capture photos and videos, allow Chatty Notes Lite access to your camera. Tap Settings > Permissions, and turn Camera on.</string>
+    <string name="permission_cam_send_request">To capture photos and videos, allow Chatty Notes Lite access to your camera.</string>
+    <string name="permission_storage_mic_send">"To record a Voice Message, allow Chatty Notes Lite access to your microphone and your device's photos, media, and files. Tap Settings > Permissions, and turn Microphone on and Storage on."</string>
+    <string name="permission_storage_mic_send_request">"To record a Voice Message, allow Chatty Notes Lite access to your microphone and your device's photos, media, and files."</string>
+    <string name="permission_location_send">To send a nearby place or your location, allow Chatty Notes Lite access to your location. Tap Settings > Permissions, and turn Location on.</string>
+    <string name="permission_location_send_request">To send a nearby place or your location, allow Chatty Notes Lite access to your location.</string>
+    <string name="permission_change_chat_image">"To update chat image, allow Chatty Notes Lite access to your camera and your device's photos, media, and files. Tap Settings > Permissions, and turn Camera and Storage on."</string>
+    <string name="permission_change_chat_image_request">"To update chat image, allow Chatty Notes Lite access to your camera and your device's photos, media, and files."</string>
+    <string name="permission_storage_email">"To send an email, allow Chatty Notes Lite access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
+    <string name="permission_storage_email_request">"To send an email, allow Chatty Notes Lite access to your device's photos, media, and files."</string>
+    <string name="permission_storage_media_view">"To view media, allow Chatty Notes Lite access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
+    <string name="permission_storage_media_view_request">"To view media, allow Chatty Notes Lite access to your device's photos, media, and files."</string>
+    <string name="permission_storage_backup">"To detect whether backup is present in your storage, allow Chatty Notes Lite access to your device's photos, media, and files. Tap Settings > Permissions, and turn Storage on."</string>
+    <string name="permission_storage_backup_request">"To detect whether backup is present in your storage, allow Chatty Notes Lite access to your device's photos, media, and files."</string>
 
     <!-- activity_titles -->
-    <string name="title_activity_first_screen">Chatty Notes</string>
+    <string name="title_activity_first_screen">Chatty Notes Lite</string>
     <string name="title_activity_backup">Backup</string>
     <string name="title_activity_backup_info">Backup info</string>
-    <string name="title_activity_chat">Chatty Notes</string>
+    <string name="title_activity_chat">Chatty Notes Lite</string>
     <string name="title_activity_conversation">Conversation</string>
     <string name="title_activity_new_chat">New chat</string>
     <string name="title_activity_chat_info">Chat info</string>
@@ -81,7 +81,7 @@ All rights reserved."</string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_release_notes">Release notes</string>
     <string name="title_activity_starred_notes">Starred notes</string>
-    <string name="title_activity_incorrect_app_release_version">Chatty Notes</string>
+    <string name="title_activity_incorrect_app_release_version">Chatty Notes Lite</string>
 
     <!-- do not use in manifest -->
     <string name="title_activity_forward">Select chat</string>
